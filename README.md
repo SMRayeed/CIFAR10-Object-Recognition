@@ -1,2 +1,3 @@
 # CIFAR10-Object-Recognition
 CIFAR-10  is an established computer-vision dataset used for object recognition. It is a subset of the 80 million tiny images dataset and consists of 60,000 32x32 color images containing one of 10 object classes, with 6000 images per class. It was collected by Alex Krizhevsky, Vinod Nair and Geoffrey Hinton.
+/tab This project is about classifying & recognizing the CIFAR10 images using Convolutional Neural Network (CNN). Here, 'categorical_crossentropy' is used as a loss function since there are 10 categories/labels; as optimizer, 'adam' has been used, and three Convolutional layers have been used as the basic building block of the model. After training the model with the training dataset, the accuracy found for testing dataset was 77.57%. 
